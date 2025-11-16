@@ -1,4 +1,5 @@
 .kaggle_pull_tmp/
 .ipynb_checkpoints/
+.env
 
 

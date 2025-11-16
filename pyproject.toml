@@ -1,0 +1,24 @@
+[project]
+name = "google-5-days-ai-agents"
+version = "0.1.0"
+description = "Local copies of Kaggle x Google DeepMind agents codelabs"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Anil Yanamandra" }]
+
+# Minimal runtime based on notebook metadata (Python 3.11) and Jupyter usage.
+# Add more libs here if a notebook imports them.
+dependencies = [
+  "jupyterlab>=4",
+  "ipykernel",
+  "google-adk>=1.18.0",
+  "python-dotenv>=1.0.0",
+]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+
+
