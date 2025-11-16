@@ -3,3 +3,6 @@
 .env
 
 
+
+# Ignore local sample agent scaffold
+1_intro-to-agents/sample-agent/
