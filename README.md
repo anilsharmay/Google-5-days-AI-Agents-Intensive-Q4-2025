@@ -1,4 +1,6 @@
-Here is a **GitHub-ready README section** — clean Markdown, link-rich, skimmable, and copy-paste friendly.
+The 5‑Day AI Agents Intensive is a free, online course by Google’s ML researchers and engineers that teaches the foundations and practical applications of AI agents. You’ll learn the core components—models, tools, orchestration, memory, and evaluation—and how agents move beyond LLM prototypes to become production‑ready systems. Access the course here: https://www.kaggle.com/learn-guide/5-day-agents
+
+This Git repo mirrors the course notebooks for convenience with local `.env` support and a minimal `pyproject.toml` so you can run everything outside Kaggle. It’s useful for version control, reproducible local runs, showcasing results, and building reusable code blocks (agents, tools, memory, eval) that you can lift into your own projects—while keeping Kaggle‑specific steps (like Secrets) clearly noted to switch between environments easily.
 
 ---
 
